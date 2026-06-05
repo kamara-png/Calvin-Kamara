@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Calvin Kamara — Graphic Designer</title>
+    <link rel="icon" type="image/png" href="./IMAGES/Stasher-logo-.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Calvin Kamara — Nairobi-based Graphic Designer specialising in Brand Identity, Motion, Posters and Videography."
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+
+  <body>
+    <div id="progress-bar"></div>
+
+    <!-- Lightbox -->
+    <div class="lightbox-overlay" id="lightbox">
+      <button class="lightbox-close" id="lightbox-close">&times;</button>
+      <img class="lightbox-img" id="lightbox-img" src="" alt="" />
+    </div>
+
+    <!-- Dropdown Menu (mobile) -->
+    <div class="dropdown-menu" id="dropdown-menu">
+      <ul>
+        <li><a href="#posters" onclick="closeDropdown()">Poster Art</a></li>
+        <li><a href="#logos" onclick="closeDropdown()">Logos</a></li>
+        <li>
+          <a href="#album-covers" onclick="closeDropdown()">Album Covers</a>
+        </li>
+        <li><a href="#services" onclick="closeDropdown()">Services</a></li>
+        <li><a href="#contact" onclick="closeDropdown()">Contact Me</a></li>
+      </ul>
+    </div>
+
+    <!-- Hamburger (mobile only) -->
+    <button class="hamburger" id="hamburger" aria-label="Open menu">
+      &#9776;
+    </button>
+
+    <header>
+      <a href="#" class="logo">
+        <img src="./IMAGES/Stasher-logo-.png" alt="Calvin Logo" />
+      </a>
+    </header>
+
+    <!-- Desktop Navbar -->
+    <nav class="navbar">
+      <div class="nav-glass">
+        <ul class="nav-links">
+          <li><a href="#posters">Poster Art</a></li>
+          <li><a href="#logos">Logos</a></li>
+          <li><a href="#album-covers">Album Covers</a></li>
+          <li><a href="#services">Services</a></li>
+        </ul>
+        <a href="#contact" class="nav-contact-btn">Contact Me</a>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="glass hero-card" data-aos="fade-up">
+        <div class="hero-left">
+          <h2>Graphic Designer</h2>
+          <p>Brand Identity • Motion • Posters • Videography</p>
+          <button
+            onclick="
+              document
+                .getElementById('contact')
+                .scrollIntoView({ behavior: 'smooth' })
+            "
+          >
+            Contact Me
+          </button>
+        </div>
+        <div class="hero-divider"></div>
+        <div class="hero-right">
+          <p class="hero-bio">
+            I'm <b>Calvin Kamara</b>, a creative graphic designer based in
+            Nairobi with a passion for bold visuals, clean branding, and
+            storytelling through design. I bring ideas to life across digital
+            and print.
+          </p>
+          <div class="stat-bar">
+            <div class="stat-item">
+              <span class="stat-number">35+</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">5</span>
+              <span class="stat-label">Years Exp.</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">30+</span>
+              <span class="stat-label">Clients</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tools Slider -->
+    <section class="partners-section" data-aos="fade-up">
+      <div class="section-title">
+        <h3>Tools I Work With</h3>
+      </div>
+      <div class="logos-slider">
+        <div class="overflow">
+          <div class="logos-wrapper">
+            <div class="logo-item">
+              <img src="./SVG's/aa.svg" alt="Adobe Animate" />
+            </div>
+            <div class="logo-item">
+              <img src="./SVG's/ae.svg" alt="Adobe After Effects" />
+            </div>
+            <div class="logo-item">
+              <img src="./SVG's/ai.svg" alt="Adobe Illustrator" />
+            </div>
+            <div class="logo-item">
+              <img src="./SVG's/app.svg" alt="Adobe Premiere Pro" />
+            </div>
+            <div class="logo-item">
+              <img src="./SVG's/blend.svg" alt="Blender" />
+            </div>
+            <div class="logo-item">
+              <img src="./SVG's/cd.svg" alt="Corel Draw" />
+            </div>
+            <div class="logo-item">
+              <img src="./SVG's/codi.svg" alt="Coding" />
+            </div>
+            <div class="logo-item">
+              <img src="./SVG's/css.svg" alt="CSS3" />
+            </div>
+            <div class="logo-item">
+              <img src="./SVG's/cvs.svg" alt="Canva" />
+            </div>
+            <div class="logo-item">
+              <img src="./SVG's/fig.svg" alt="Figma" />
+            </div>
+            <div class="logo-item">
+              <img src="./SVG's/html.svg" alt="HTML5" />
+            </div>
+            <div class="logo-item">
+              <img src="./SVG's/aa.svg" alt="Adobe Animate" />
+            </div>
+            <div class="logo-item">
+              <img src="./SVG's/ae.svg" alt="Adobe After Effects" />
+            </div>
+            <div class="logo-item">
+              <img src="./SVG's/ai.svg" alt="Adobe Illustrator" />
+            </div>
+            <div class="logo-item">
+              <img src="./SVG's/app.svg" alt="Adobe Premiere Pro" />
+            </div>
+            <div class="logo-item">
+              <img src="./SVG's/blend.svg" alt="Blender" />
+            </div>
+            <div class="logo-item">
+              <img src="./SVG's/cd.svg" alt="Corel Draw" />
+            </div>
+            <div class="logo-item">
+              <img src="./SVG's/codi.svg" alt="Coding" />
+            </div>
+            <div class="logo-item">
+              <img src="./SVG's/css.svg" alt="CSS3" />
+            </div>
+            <div class="logo-item">
+              <img src="./SVG's/cvs.svg" alt="Canva" />
+            </div>
+            <div class="logo-item">
+              <img src="./SVG's/fig.svg" alt="Figma" />
+            </div>
+            <div class="logo-item">
+              <img src="./SVG's/html.svg" alt="HTML5" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials-section" data-aos="fade-up">
+      <div class="section-title">
+        <h3>What Clients Say</h3>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card glass">
+          <p class="testimonial-text">
+            "Calvin completely transformed our brand. The logo he designed for Q
+            Lounge was exactly what we had imagined — clean, bold, and
+            timeless."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">KM</div>
+            <div>
+              <span class="author-name">Kelvin Musembi</span>
+              <span class="author-role">Owner, Q Lounge</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card glass">
+          <p class="testimonial-text">
+            "Working with Calvin was seamless. He understood our vision for
+            Generation Now instantly and delivered something that felt fresh and
+            authentic."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">MK</div>
+            <div>
+              <span class="author-name">Marylin Kamara</span>
+              <span class="author-role">Co-founder, Generation Now</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card glass">
+          <p class="testimonial-text">
+            "The album cover Calvin created for us got more compliments than the
+            music itself. Incredibly talented and easy to work with."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">ZV</div>
+            <div>
+              <span class="author-name">Zachariah Vasco</span>
+              <span class="author-role">Recording Artist</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Cards -->
+    <section class="projects" data-aos="fade-up">
+      <div class="glass card">
+        <h3>Q Lounge</h3>
+        <p class="card-category">Brand Identity</p>
+        <p class="card-desc">
+          Q Lounge needed a full rebrand that felt upscale yet welcoming. I
+          developed a sleek identity with a warm color palette, custom
+          typography, and brand guidelines that gave the lounge a premium feel
+          without losing its relaxed atmosphere.
+        </p>
+      </div>
+
+      <div class="glass card">
+        <h3>duo++</h3>
+        <p class="card-category">Y2K Fashion</p>
+        <p class="card-desc">
+          duo++ is a fashion label rooted in Y2K nostalgia. I crafted a bold
+          visual identity — retro typography, chrome textures, and high-contrast
+          layouts — that felt authentic to the era while staying relevant for
+          today's market.
+        </p>
+      </div>
+
+      <div class="glass card">
+        <h3>Generation Now</h3>
+        <p class="card-category">Mental Health Branding</p>
+        <p class="card-desc">
+          Generation Now required a brand that felt safe, approachable, and
+          modern. I designed a soft, minimal identity using calming tones and
+          clean layouts to communicate trust and openness to a young audience.
+        </p>
+      </div>
+
+      <div class="glass card">
+        <h3>Ckay.png</h3>
+        <p class="card-category">Graphic Design</p>
+        <p class="card-desc">
+          A personal creative project exploring the intersection of digital art
+          and identity. Through layered visuals, glitch aesthetics, and
+          experimental typography, this project pushed the boundaries of my
+          design style.
+        </p>
+      </div>
+    </section>
+
+    <!-- Poster Art -->
+    <section id="posters" class="panel">
+      <div class="glass-section masonry-section" data-aos="fade-up">
+        <h1>Poster Art</h1>
+        <div class="masonry-grid">
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/WALTER.jpg" alt="" />
+          </div>
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/VOID.jpg" alt="" />
+          </div>
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/KNIGHT.jpg" alt="" />
+          </div>
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/BALDWIN.jpg" alt="" />
+          </div>
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/GHOST OF TSHUSIMA.jpg" alt="" />
+          </div>
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/NOISY.jpg" alt="" />
+          </div>
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/VALOR KNIGHT.jpg" alt="" />
+          </div>
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/NBA.jpg" alt="" />
+          </div>
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/RUUD.jpg" alt="" />
+          </div>
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/FEAR.jpg" alt="" />
+          </div>
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/JAPAN.jpg" alt="" />
+          </div>
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/KAI.jpg" alt="" />
+          </div>
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/LAMELO.jpg" alt="" />
+          </div>
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/ZION.jpg" alt="" />
+          </div>
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/ikky-poster.jpg" alt="" />
+          </div>
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/icarus.jpg" alt="" />
+          </div>
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/flow.jpg" alt="" />
+          </div>
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/f1-startrooper-2.jpg" alt="" />
+          </div>
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/duo-back-2.png" alt="" />
+          </div>
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/BE-unique.jpg" alt="" />
+          </div>
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/Knight-of-the-nine.jpg" alt="" />
+          </div>
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/kobe.jpg" alt="" />
+          </div>
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/MJ-SWAGGER.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Logos -->
+    <section id="logos" class="panel">
+      <div class="glass-section masonry-section" data-aos="fade-up">
+        <h1>Logos</h1>
+        <div class="masonry-grid">
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/flambe.png" alt="" />
+          </div>
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/ckaypng.webp" alt="" />
+          </div>
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/qlounge.jpg" alt="" />
+          </div>
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/skycharm.png" alt="" />
+          </div>
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/duo.jpg" alt="" />
+          </div>
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/fitvault.png" alt="" />
+          </div>
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/fitvault.png" alt="" />
+          </div>
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/fitvault2.png" alt="" />
+          </div>
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/generationnow.png" alt="" />
+          </div>
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/intellecta.png" alt="" />
+          </div>
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/Kisaka-drips-3 (1).png" alt="" />
+          </div>
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/vasco.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Album Covers -->
+    <section id="album-covers" class="panel">
+      <div class="glass-section masonry-section" data-aos="fade-up">
+        <h1>Album Covers</h1>
+        <div class="masonry-grid">
+          <div class="masonry-item">
+            <img
+              loading="lazy"
+              src="./IMAGES/spinx-album-cover-3.1.png"
+              alt=""
+            />
+          </div>
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/vasco diss 2.png" alt="" />
+          </div>
+          <div class="masonry-item">
+            <img
+              loading="lazy"
+              src="./IMAGES/yujoh-final-final_3000x3000.jpg"
+              alt=""
+            />
+          </div>
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/SPINX-top-boy.png" alt="" />
+          </div>
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/VASCO-diss.png" alt="" />
+          </div>
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/SPHINX-1.png" alt="" />
+          </div>
+          <div class="masonry-item">
+            <img loading="lazy" src="./IMAGES/Stick to your lane.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="services-section" data-aos="fade-up">
+      <div class="section-title">
+        <h3>Services & Pricing</h3>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon"></div>
+          <h3>Basic</h3>
+          <p class="service-subtitle">Perfect for startups & individuals</p>
+          <ul class="service-features">
+            <li>Logo Design</li>
+            <li>2 Revisions</li>
+            <li>Poster Design</li>
+            <li>Source Files Included</li>
+          </ul>
+          <span class="service-price">From KSh 5,000</span>
+          <a href="#contact" class="service-btn">Get Started</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon"></div>
+          <h3>Standard</h3>
+          <p class="service-subtitle">Great for growing brands</p>
+          <ul class="service-features">
+            <li>Full Brand Identity</li>
+            <li>Logo + Color Palette</li>
+            <li>Motion Graphics</li>
+            <li>5 Revisions</li>
+            <li>Brand Guidelines PDF</li>
+          </ul>
+          <span class="service-price">From KSh 10,000</span>
+          <a href="#contact" class="service-btn">Get Started</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon"></div>
+          <h3>Premium</h3>
+          <p class="service-subtitle">Full creative partnership</p>
+          <ul class="service-features">
+            <li>Everything in Standard</li>
+            <li>Videography & Editing</li>
+            <li>Web Design</li>
+            <li>Unlimited Revisions</li>
+            <li>Priority Support</li>
+            <li>Social Media Kit</li>
+          </ul>
+          <span class="service-price">From KSh 15,000</span>
+          <a href="#contact" class="service-btn">Get Started</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact-section">
+      <div class="glass contact-card" data-aos="fade-up">
+        <h1>Let's Work Together</h1>
+        <p>
+          Got a project in mind? Reach out through any of the platforms below.
+        </p>
+        <form class="contact-form" id="contact-form">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" rows="4" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+        <div class="contact-icons">
+          <a
+            class="contact-link"
+            href="https://wa.me/254141663900"
+            target="_blank"
+          >
+            <div class="contact-icon-box">
+              <img
+                src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/whatsapp.svg"
+                alt="WhatsApp"
+                style="filter: invert(1)"
+              />
+            </div>
+            <span>WhatsApp</span>
+          </a>
+          <a
+            class="contact-link"
+            href="https://instagram.com/ckay.png"
+            target="_blank"
+          >
+            <div class="contact-icon-box">
+              <img
+                src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/instagram.svg"
+                alt="Instagram"
+                style="filter: invert(1)"
+              />
+            </div>
+            <span>Instagram</span>
+          </a>
+          <a class="contact-link" href="mailto:calvinkamarack@gmail.com">
+            <div class="contact-icon-box">
+              <img
+                src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/gmail.svg"
+                alt="Email"
+                style="filter: invert(1)"
+              />
+            </div>
+            <span>Email</span>
+          </a>
+          <a
+            class="contact-link"
+            href="https://www.linkedin.com/in/calvin-kamara-1b20b440b"
+            target="_blank"
+          >
+            <div class="contact-icon-box">
+              <img
+                src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linkedin.svg"
+                alt="LinkedIn"
+                style="filter: invert(1)"
+              />
+            </div>
+            <span>LinkedIn</span>
+          </a>
+        </div>
+        <div class="cv-wrapper">
+          <a href="cv.pdf" download class="cv-download-btn">Download My CV</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="toast" id="toast">
+      Message sent! I'll get back to you shortly.
+    </div>
+
+    <footer class="footer">
+      <p>© 2026 Calvin Kamara. All rights reserved.</p>
+    </footer>
+
+    <script>
+      AOS.init({ duration: 800, once: true, offset: 80 });
+
+      // Lightbox
+      const overlay = document.getElementById("lightbox");
+      const lightboxImg = document.getElementById("lightbox-img");
+      const closeBtn = document.getElementById("lightbox-close");
+
+      document.querySelectorAll(".masonry-item img").forEach((img) => {
+        img.style.cursor = "pointer";
+        img.addEventListener("click", () => {
+          lightboxImg.src = img.src;
+          overlay.classList.add("active");
+        });
+      });
+
+      closeBtn.addEventListener("click", () =>
+        overlay.classList.remove("active"),
+      );
+      overlay.addEventListener("click", (e) => {
+        if (e.target === overlay) overlay.classList.remove("active");
+      });
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") overlay.classList.remove("active");
+      });
+
+      // Progress bar
+      window.addEventListener("scroll", () => {
+        const scrollTop = document.documentElement.scrollTop;
+        const scrollHeight =
+          document.documentElement.scrollHeight -
+          document.documentElement.clientHeight;
+        document.getElementById("progress-bar").style.width =
+          (scrollTop / scrollHeight) * 100 + "%";
+      });
+
+      // Toast
+      document
+        .getElementById("contact-form")
+        .addEventListener("submit", (e) => {
+          e.preventDefault();
+          const toast = document.getElementById("toast");
+          toast.classList.add("show");
+          setTimeout(() => toast.classList.remove("show"), 3500);
+          e.target.reset();
+        });
+
+      // Active nav highlight
+      const sections = document.querySelectorAll("section[id]");
+      const navLinks = document.querySelectorAll(".nav-links a");
+
+      window.addEventListener("scroll", () => {
+        let current = "";
+        sections.forEach((section) => {
+          if (window.scrollY >= section.offsetTop - 200) {
+            current = section.getAttribute("id");
+          }
+        });
+        navLinks.forEach((link) => {
+          link.classList.remove("active");
+          if (link.getAttribute("href") === "#" + current) {
+            link.classList.add("active");
+          }
+        });
+      });
+
+      // Hamburger dropdown
+      const hamburger = document.getElementById("hamburger");
+      const dropdownMenu = document.getElementById("dropdown-menu");
+
+      hamburger.addEventListener("click", (e) => {
+        e.stopPropagation();
+        dropdownMenu.classList.toggle("active");
+      });
+
+      document.addEventListener("click", (e) => {
+        if (!dropdownMenu.contains(e.target) && e.target !== hamburger) {
+          dropdownMenu.classList.remove("active");
+        }
+      });
+
+      function closeDropdown() {
+        dropdownMenu.classList.remove("active");
+      }
+    </script>
+  </body>
+</html>
