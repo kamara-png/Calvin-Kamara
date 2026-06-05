@@ -577,10 +577,16 @@
     </div>
 
     <footer class="footer">
-      <p>© 2026 Calvin Kamara. All rights reserved.</p>
+      <p>
+        © <span id="current-year"></span> Calvin Kamara. All rights reserved.
+      </p>
     </footer>
 
     <script>
+      // Set current year
+      document.getElementById("current-year").textContent =
+        new Date().getFullYear();
+
       AOS.init({ duration: 800, once: true, offset: 80 });
 
       // Lightbox
