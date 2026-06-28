@@ -22,7 +22,7 @@ body::before {
   content: "";
   position: fixed;
   inset: 0;
-  background-image: url("./IMAGES/back.png");
+  background-image: url("./IMAGES/back.webp");
   background-size: cover;
   background-attachment: fixed;
   animation: bg-hue 20s linear infinite;
