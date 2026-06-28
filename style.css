@@ -22,7 +22,7 @@ body::before {
   content: "";
   position: fixed;
   inset: 0;
-  background-image: url("./IMAGES/back.webp");
+  background-image: url("./IMAGES/background.webp");
   background-size: cover;
   background-attachment: fixed;
   animation: bg-hue 20s linear infinite;
@@ -99,7 +99,7 @@ header {
     filter: hue-rotate(0deg);
   }
   100% {
-    filter: hue-rotate(360deg);
+    filter: hue-rotate(90deg);
   }
 }
 
